@@ -1,0 +1,31 @@
+{
+  "name": "Critic",
+  "version": "0.0.0",
+  "description": "comment on anything",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "~3.9.1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.10.0",
+    "gulp": "~3.9.1",
+    "gulp-autoprefixer": "",
+    "gulp-coffee": "",
+    "gulp-plumber": "",
+    "gulp-rename": "",
+    "gulp-sass": "",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hueyy/critic.git"
+  },
+  "author": "Huey",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/hueyy/critic/issues"
+  }
+}
