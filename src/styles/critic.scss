@@ -2,3 +2,9 @@
 	color: #fff;
 	text-size: 5px;
 }
+span.critic-highlight{
+	background-color: rgba(39,243,106,.2);
+}
+span.critic-highlight:hover{
+	background-color: rgba(39,243,106,.4);
+}

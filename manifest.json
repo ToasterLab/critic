@@ -11,12 +11,13 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://*/*"],
-      "css": ["dist/styles/critic.css"]
+      "matches": ["http://*/*","https://*/*"],
+      "css": ["dist/styles/critic.css"],
+      "js": ["dist/scripts/min.js","dist/scripts/critic.js"]
     }
   ],
   "background":{
-  	"scripts": ["dist/scripts/critic.js"]
+  	"scripts": ["dist/scripts/background.js"]
   },
   "permissions": [
     "activeTab",
