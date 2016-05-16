@@ -13,7 +13,7 @@
     {
       "matches": ["http://*/*","https://*/*"],
       "css": ["dist/styles/critic.css"],
-      "js": ["dist/scripts/min.js","dist/scripts/critic.js"]
+      "js": ["dist/scripts/min.js","dist/scripts/lodash.core.js","dist/scripts/critic.js"]
     }
   ],
   "background":{
